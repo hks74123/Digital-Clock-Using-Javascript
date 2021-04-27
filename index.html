@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a class="links" onclick="INDIA()">HOME</a>
+    <a class="links" href="#">Contact Us</a>
+    <div class="dropdown-menu">
+    <button class="menu-btn">Time Zone <</button>
+    <div class="menu-content" id="Menuu">
+    <a class="links-hidden" onclick="INDIA()">INDIA</a>
+    <a class="links-hidden" onclick="SINGAPORE()">SINGAPORE</a>
+    <a class="links-hidden" onclick="USA()">USA</a>
+    <a class="links-hidden" onclick="LONDON()">LONDON</a>
+
+    </div>
+    </div>
+    <a class="hamburger">☰</a>
+    </nav>
+    <div class="show_time">
+    <div class="title">
+    <h3>Digital Clock</h3>
+</div>
+        <div class="c1">
+        <div id="ds_time"></div>
+    </div>
+    <div class="d_parameters" id="d_para">
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
